@@ -1,6 +1,6 @@
 
 example()
-build_jar()
+//build_jar()
 static_code_analysis()
 build()
 run_image_in_container("python-bokeh-apps", "5006:8080", "try-it-out_sdp")

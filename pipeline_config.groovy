@@ -6,7 +6,7 @@ allow_scm_jenkinsfile = false
 */
 libraries {
   example_library
-  gradle
+//  gradle
   a11y {
 //    url = "https://example.com"
     url = "http://localhost:8088"
