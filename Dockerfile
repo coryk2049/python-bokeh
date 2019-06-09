@@ -2,6 +2,8 @@ FROM continuumio/anaconda3:latest
 
 WORKDIR /home/anaconda/apps
 
+COPY ./apps /home/anaconda/apps 
+
 #RUN mkdir -p /home/anaconda/apps
 
 #WORKDIR /home/anaconda/stocks
