@@ -1,12 +1,11 @@
 // restrict individual repository Jenkinsfiles
 allow_scm_jenkinsfile = false
-
 /*
   define libraries to load.
-  available libraries are based upon the
-  library sources configured.
+  available libraries are based upon the library sources configured.
 */
 libraries {
+  example_library
   gradle
   a11y {
 //    url = "https://example.com"
