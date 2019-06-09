@@ -8,7 +8,7 @@ run_image_in_container("python-bokeh", "5006:8088", "try-it-out_sdp")
 accessibility_compliance_test()
 //performance_test()
 //functional_test()
-stop_container("python-bokeh")
+//stop_container("python-bokeh")
 /*
 on_commit {
     static_code_analysis()
