@@ -15,7 +15,8 @@ libraries {
     images {
 	  registry = "http://docker-registry.default.svc:5000"
       cred = "openshift-docker-registry"              
-      repo = "sdp"
+      //cred = "sdp-docker-registry" 
+	  repo = "sdp"
     }
   }
   github_enterprise
@@ -25,5 +26,6 @@ libraries {
   docker {
 	registry = "docker-registry.default.svc:5000/onr" 
     cred = "openshift-docker-registry"
+      //cred = "sdp-docker-registry"
   }
 }
