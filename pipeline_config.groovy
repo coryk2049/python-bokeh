@@ -23,7 +23,7 @@ libraries {
     enforce_quality_gate = true
   }
   docker {
-	registry = "http://docker-registry.default.svc:5000" 
+	registry = "docker-registry.default.svc:5000" 
     cred = "sdp-docker-registry"
   }
 }
