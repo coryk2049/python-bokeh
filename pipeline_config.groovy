@@ -25,5 +25,6 @@ libraries {
   docker {
 	registry = "docker-registry.default.svc:5000" 
     cred = "sdp-docker-registry"
+    repo = "onr"
   }
 }
