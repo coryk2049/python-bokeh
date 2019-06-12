@@ -23,7 +23,7 @@ libraries {
     enforce_quality_gate = true
   }
   docker {
-	registry = "docker-registry.default.svc:5000" 
+	registry = "docker-registry.default.svc:5000/onr" 
     cred = "sdp-docker-registry"
     repo = "sdp"
   }
