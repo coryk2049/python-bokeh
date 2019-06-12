@@ -9,7 +9,7 @@ libraries {
 //  gradle
   a11y {
 //    url = "https://example.com"
-    url = "http://localhost:8088"
+    url = "http://localhost:5006"
   }
   sdp {
     images {
