@@ -14,7 +14,7 @@ libraries {
   sdp {
     images {
 	  registry = "http://docker-registry.default.svc:5000"
-      cred = "sdp-docker-registry"              
+      cred = "openshift-docker-registry"              
       repo = "sdp"
     }
   }
@@ -23,7 +23,7 @@ libraries {
     enforce_quality_gate = true
   }
   docker {
-	registry = "docker-registry.default.svc:5000/sdp" 
-    cred = "sdp-docker-registry"
+	registry = "docker-registry.default.svc:5000/onr" 
+    cred = "openshift-docker-registry"
   }
 }
