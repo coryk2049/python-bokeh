@@ -21,7 +21,7 @@ libraries {
   }
   github_enterprise
   sonarqube {
-    enforce_quality_gate = true
+    enforce_quality_gate = false
   }
   docker {
 	registry = "docker-registry.default.svc:5000/onr" 
